@@ -1,0 +1,336 @@
+/* header */
+.header {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #667085;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: 667085;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.globo {
+    display: flex;
+    padding-right: 5px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-left: 15%;
+    margin-right: auto;
+
+}
+
+.cadastrar {
+    background-color: #8e2424;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+
+    font-weight: 100;
+    margin-left: 30px;
+}
+
+
+/* sobre nós */
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    background-color: white;
+
+
+}
+
+.vermelho {
+    color: #8e2424;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.grande {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.medio {
+    padding-left: 28%;
+    padding-right: 28%;
+    color: #798294;
+    font-size: 30px;
+
+    text-align: center;
+}
+
+/* projetos */
+
+.projetos {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 100px;
+
+    justify-content: center;
+
+    background-color: white;
+
+}
+
+.column1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.column2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.column3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.column4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.numeros {
+    color: #8e2424;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.tema {
+    color: black;
+    font-size: 26px;
+}
+
+.desc {
+    font-size: 16px;
+    color: #7a8294;
+
+}
+
+/* vagas abertas*/
+
+.talentos {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abertas {
+    color: #8e2424;
+    background-color: #f9f4f4;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    margin-bottom: 0px;
+    font-size: 16px;
+
+}
+
+.grande1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    font-size: 36px;
+}
+
+.procurando {
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+    color: #7a8294;
+    font-weight: 100;
+}
+
+.contratados {
+    width: 1080px;
+    height: 350px;
+}
+
+/* vagas */
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.titulofora {
+    display: flex;
+
+    margin-top: 60px;
+
+    margin-left: 29.3%;
+
+}
+
+.borda {
+    display: flex;
+    width: 800px;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+
+}
+
+.descVaga {
+    margin-left: 5%;
+}
+
+.dual {
+    display: flex;
+    color: #7a8294;
+
+}
+
+.espaco {
+    margin-right: 30px;
+}
+
+/* colaboradores */
+
+.rentaguloRosa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    background-color: #FDF8F8;
+    border-radius: 20px;
+}
+
+.grandeJustif {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+
+    font-size: 36px;
+}
+
+.vermelhoPequeno {
+    margin-top: 40px;
+    color: #8e2424;
+    font-size: 20px;
+}
+
+.nomeAutor {
+    margin-bottom: 0px;
+}
+
+.cargoAutor {
+    margin-top: 5px;
+    color: #798294;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* acompanhe as nossas oportunidades */
+
+.retanguloCinza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    background-color: #F9FAFB;
+    border-radius: 20px;
+
+}
+
+.email {
+    width: 300px;
+    height: 20px;
+    padding: 12px;
+
+
+
+    border-radius: 4px;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    /* remove underline from anchors */
+
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.acompanhe {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.vagasAbertas {
+    font-size: 20px;
+    color: #798294;
+}
+
+.copyright {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #798294;
+    font-size: 16px;
+}
